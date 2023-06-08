@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+    <title>Notation</title>
+    <style>
+        p{
+            text-align: left;
+            margin-left:  20em;
+            margin-top: 5em;
+            margin-bottom: 0px;
+
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        div{
+            text-align: right;
+            margin: 10em;
+            margin-bottom: 0px;
+        }
+
+    </style>
+</head>
+<body>
+
+<p>
+    Le Royaume du Maroc<br>
+    Ministère de l'Intérieur<br>
+
+    Région de Marrakech-Safi<br>
+    Préfecture de Marrakech<br>
+
+    Commune de Marrakech<br>
+    Direction Générale des Services<br>
+    Département des Ressources Humaines<br>
+    Service Informatique et Archivage
+</p>
+
+<div>
+    <u>
+        Carte de pointage individuelle<br>
+        Dessin de l'année : 2023
+    </u>
+</div>
+<table>
+    <tr>
+        <td colspan="9">1 L'identité du salarié</td>
+    </tr>
+    <tr>
+
+        <td style="width: 40%;">Nom</td>
+        <td style="width: 20%;">$nom</td>
+        <td style="width: 20%; text-align: right;">$nomArabe</td>
+        <td style="width: 20%; text-align: right; " colspan="2"> الاسم العائلي</td>
+    </tr>
+
+    <tr>
+        <td style="width: 40%;">Prénom</td>
+        <td style="width: 20%;"> $prenom </td>
+        <td style="width: 20%; text-align: right;"> </td>
+        <td style="width: 20%; text-align: right;" colspan="2"> الاسم الشخصي  </td>
+    </tr>
+    <tr>
+        <td style="width: 40%;"> Date de naissance</td>
+        <td style="width: 20%;">$dateDeNaissance  </td>
+        <td style="width: 20%;text-align: right; "> Lieu de naissance </td>
+        <td style="width: 20%; "  colspan="2">$lieuDeNaissance  </td>
+    </tr>
+    <tr>
+        <td style="width: 40%;">Situation familiale</td>
+        <td style="width: 20%;">$Situtaionfamiliale</td>
+        <td style="width: 20%; text-align: right;">Nombre d'enfants </td>
+        <td style="width: 20%; text-align: left;"  colspan="2"></td>
+    </tr>
+    <tr>
+        <td style="width: 40%;">Date Embauche</td>
+        <td style="width: 20%;">$dateEmbauche</td>
+        <td style="width: 20%;text-align: right;"> CIN</td>
+        <td style="width: 20%; text-align: left;" colspan="2">$cin</td>
+    </tr>
+    <tr>
+        <td style="width: 40%;">Echelon et la date d'activation </td>
+        <td style="width: 20%;"></td>
+        <td style="width: 20%;text-align: right;"> Matricule</td>
+        <td style="width: 20%; text-align: left;" colspan="2">$matricule</td>
+    </tr>
+    <tr>
+        <td style="width: 40%;">Grade et Local </td>
+        <td style="width: 40%; " colspan="2">$grade</td>
+        <td style="width: 20%; text-align: left;" colspan="2">$local</td>
+    </tr>
+    <tr>
+        <td style="width: 40%;">Poste </td>
+        <td style="width: 40%;" colspan="2">$poste</td>
+        <td style="width: 20%; text-align: left;" colspan="2"></td>
+
+    </tr>
+    <tr>
+        <td style="width: 40%;">Adresse </td>
+        <td style="width: 40%;" colspan="2">$adresse</td>
+        <td style="width: 20%; text-align: left;"  colspan="2"></td>
+    </tr>
+    <tr>
+        <td colspan="9">2 Points attribués</td>
+    </tr>
+    <tr>
+        <td style="width: 30%;">Les elements du notation</td>
+        <td style="width: 10%;">Echelle du pointage </td>
+        <td style="width: 30%;">Responsable direct</td>
+        <td style="width: 10%;"> Echelle</td>
+        <td style="width: 20%;"> Remarques</td>
+    </tr>
+    <tr>
+        <td style="width: 30%;">Effectuer des taches liées à l'emploi</td>
+        <td style="width: 10%;">De 0 à 5 </td>
+        <td style="width: 30%;"></td>
+        <td style="width: 10%;"> </td>
+        <td style="width: 20%;"> </td>
+    </tr>
+    <tr>
+        <td style="width: 30%;">Rendement </td>
+        <td style="width: 10%;">De 0 à 5 </td>
+        <td style="width: 30%;"></td>
+        <td style="width: 10%;"> </td>
+        <td style="width: 20%;"> </td>
+    </tr>
+    <tr>
+        <td style="width: 30%;">La capacité à s'organiser </td>
+        <td style="width: 10%;">De 0 à 3</td>
+        <td style="width: 30%;"> </td>
+        <td style="width: 10%;"> </td>
+        <td style="width: 20%;"> </td>
+    </tr>
+    <tr>
+        <td style="width: 30%;">Comportement professionnel </td>
+        <td style="width: 10%;">De 0 à 4</td>
+        <td style="width: 30%;"></td>
+        <td style="width: 10%;"> </td>
+        <td style="width: 20%;"> </td>
+    </tr>
+    <tr>
+        <td style="width: 30%;">Recherche et innovation</td>
+        <td style="width: 10%;">De 0 à 3 </td>
+        <td style="width: 30%;"></td>
+        <td style="width: 10%;"> </td>
+        <td style="width: 20%;"> </td>
+    </tr>
+    <tr>
+        <td style="width: 30%;" colspan="2">la somme des notes(de 0 à 20)</td>
+        <td style="width: 30%;">$sommeDesNotes</td>
+        <td style="width: 10%;"> </td>
+        <td style="width: 20%;"> </td>
+    </tr>
+    <tr>
+        <td colspan="5">3 Avantage accordé</td>
+    </tr>
+    <tr>
+        <td colspan="5">4 Moyenne des notes obtenue</td>
+    </tr>
+    <tr>
+        <td colspan="5">Un rappel de la moyenne des points obtenus au cours des années nécessaires à la promotion en grade</td>
+    </tr>
+    <tr>
+        <td colspan="2">première année</td>
+        <td colspan="3"></td>
+    </tr>
+    <tr>
+        <td colspan="2">la deuxième année</td>
+        <td colspan="3"></td>
+
+    </tr>
+    <tr>  <td colspan="2">année</td>
+        <td colspan="3"></td>
+    </tr>
+    <tr>  <td colspan="5">Moyenne des notes obtenue: .../20</td></tr>
+
+
+    </tr>
+
+
+
+</table>
+<div ><u>Signature du responsable de la Direction</u></div>
+<div style="text-align: right; margin-bottom: 10em;"><u>Signature du responsable direct</u></div>
+
+
+
+
+</body>
+</html>

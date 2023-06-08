@@ -1,0 +1,45 @@
+package  ma.sir.hr.ws.dto;
+
+import ma.sir.hr.zynerator.audit.Log;
+import ma.sir.hr.zynerator.dto.AuditBaseDto;
+import com.fasterxml.jackson.annotation.JsonInclude;
+
+
+
+@JsonInclude(JsonInclude.Include.NON_NULL)
+public class GradeDto  extends AuditBaseDto {
+
+    private String libelle  ;
+    private String code  ;
+
+
+
+
+    public GradeDto(){
+        super();
+    }
+
+
+
+    @Log
+    public String getLibelle(){
+        return this.libelle;
+    }
+    public void setLibelle(String libelle){
+        this.libelle = libelle;
+    }
+
+    @Log
+    public String getCode(){
+        return this.code;
+    }
+    public void setCode(String code){
+        this.code = code;
+    }
+
+
+
+
+
+
+}
